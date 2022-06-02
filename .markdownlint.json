@@ -1,0 +1,9 @@
+{
+    "name": "markdownlint custom rule config.",
+    "note": "MD033: support html, MD013: support long line lengt, MD024: support the same menu, MD036: support block",
+    "rule": "https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md",
+    "default": true,
+    "MD033": false,
+    "MD013": false,
+    "MD024": false
+}

@@ -1,0 +1,26 @@
+{
+  "name": "knowledge-system-docs",
+  "description": "knowledge system public docs for uusama",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "uusama",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "vuepress": "^2.0.0-beta.46",
+    "vuepress-theme-hope": "^2.0.0-beta.75"
+  },
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:dev": "vuepress dev docs"
+  },
+  "devDependencies": {
+    "@vuepress/client": "^2.0.0-beta.46",
+    "vue": "^3.2.36",
+    "vuepress": "^2.0.0-beta.46",
+    "vuepress-theme-hope": "^2.0.0-beta.75"
+  }
+}
